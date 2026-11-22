@@ -4,6 +4,29 @@ Journal de trading personnel (saisie manuelle). Conception complète : [Trading_
 
 **État :** Phase 7 — MVP fonctionnellement complet : authentification, journal des trades, captures d'écran, stratégies, dashboard, analytics, calendrier, paramètres. Restent la phase 8 (validation, sécurité, sauvegardes, déploiement).
 
+## Aperçu
+
+> Captures prises sur l'application réelle avec un compte de démonstration rempli de **données fictives** (41 trades, septembre à novembre 2026). Les graphiques joints au trade sont des images générées pour l'exemple.
+
+![Dashboard : indicateurs clés, répartition gagnants/perdants et courbe de performance](docs/screenshots/dashboard.png)
+
+| Journal des trades | Fiche d'un trade avec ses captures |
+|---|---|
+| ![Journal : filtres, tri et statuts](docs/screenshots/journal.png) | ![Fiche d'un trade : détails, notes et captures avant/pendant/après](docs/screenshots/trade-detail.png) |
+| **Calendrier** | **Ajouter un trade** |
+| ![Calendrier mensuel des résultats en R](docs/screenshots/calendar.png) | ![Formulaire d'ajout d'un trade](docs/screenshots/new-trade.png) |
+| **Stratégies** | **Connexion** |
+| ![Liste des stratégies](docs/screenshots/strategies.png) | ![Page de connexion](docs/screenshots/login.png) |
+
+<details>
+<summary>Page Analytics complète et affichage mobile</summary>
+
+![Analytics : performance, résultat par période, par actif, par marché et par stratégie](docs/screenshots/analytics.png)
+
+<img src="docs/screenshots/mobile-dashboard.png" alt="Dashboard sur mobile" width="320">
+
+</details>
+
 ## Calendrier
 
 Vue mensuelle (semaine du lundi). Un trade **clôturé** apparaît le jour de sa **clôture**, avec son résultat en R ; un trade **ouvert** apparaît le jour où il a été **pris**, sans résultat. Les jours sont ceux de votre fuseau horaire (Paramètres). Navigation au clavier : flèches (jour/semaine), Début/Fin (semaine), PageHaut/PageBas (mois), Entrée (sélection).
