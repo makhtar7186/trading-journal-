@@ -1,0 +1,35 @@
+# Secrets et environnement
+.env
+.env.*
+!.env.example
+
+# Données locales
+storage/*
+!storage/.gitkeep
+backups/
+
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+backend/staticfiles/
+
+# Node / Next.js
+node_modules/
+.next/
+
+# Éditeur / OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Claude Code (réglages locaux)
+.claude/settings.local.json
+
+# Desktop (artefacts de build)
+desktop/build/
+desktop/dist/
+desktop/.venv/
+desktop/tools/

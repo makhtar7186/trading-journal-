@@ -1,0 +1,12 @@
+# Image de développement. Une image de production (multi-stage, standalone) sera ajoutée en phase 8.
+FROM node:22-alpine
+
+WORKDIR /app
+
+COPY package.json package-lock.json ./
+RUN npm ci
+
+COPY . .
+
+EXPOSE 3000
+CMD ["npm", "run", "dev", "--", "-H", "0.0.0.0", "-p", "3000"]

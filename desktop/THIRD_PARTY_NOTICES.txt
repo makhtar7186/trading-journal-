@@ -1,0 +1,5 @@
+Trading Journal embarque les composants libres suivants (voir leurs licences respectives) :
+- Python (PSF License), Django (BSD-3-Clause), Django REST framework (BSD-3-Clause), drf-spectacular (BSD-3-Clause),
+  django-filter (BSD-3-Clause), django-cors-headers (MIT), django-environ (MIT), psycopg (LGPL-3.0), waitress (ZPL-2.1), Pillow (MIT-CMU)
+- Node.js (MIT) ; Next.js, React, Tailwind CSS, Radix UI, Recharts, TanStack Query, Zod, React Hook Form, lucide (MIT)
+- PostgreSQL n'est PAS embarqué : il est installé séparément depuis le programme d'installation officiel (licence PostgreSQL).

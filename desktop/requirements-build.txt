@@ -1,0 +1,4 @@
+# Environnement de BUILD de la version desktop (Python 3.13, Windows 64 bits).
+-r ../backend/requirements/desktop.txt
+pyinstaller==6.22.3
+pytest==9.2.0

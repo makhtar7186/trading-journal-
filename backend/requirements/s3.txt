@@ -1,0 +1,2 @@
+# Stockage S3 compatible (inutile pour la version desktop, qui stocke les captures sur disque).
+boto3==1.44.3

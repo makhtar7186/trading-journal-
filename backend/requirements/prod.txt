@@ -1,0 +1,3 @@
+-r base.txt
+-r s3.txt
+gunicorn==27.0.1

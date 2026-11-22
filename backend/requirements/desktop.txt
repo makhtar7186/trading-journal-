@@ -1,0 +1,3 @@
+# Version desktop Windows : serveur waitress, sans boto3 (captures stockées sur disque).
+-r base.txt
+waitress==3.0.2

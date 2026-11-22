@@ -1,0 +1,49 @@
+2026-11-16 00:32:23,477 INFO tjlauncher.gui: Téléchargement de PostgreSQL…
+2026-11-16 00:32:24,912 INFO tjlauncher.gui: x
+2026-11-16 09:57:28,415 INFO tjlauncher.gui: Téléchargement de PostgreSQL…
+2026-11-16 09:57:30,307 INFO tjlauncher.gui: x
+2026-11-16 10:20:19,458 INFO tjlauncher.gui: Téléchargement de PostgreSQL…
+2026-11-16 10:20:20,858 INFO tjlauncher.gui: x
+2026-11-16 10:22:13,288 INFO tjlauncher: Migration vers PostgreSQL terminée : 6 ligne(s) ; ancienne base : C:\Users\makht\AppData\Local\Temp\pytest-of-makht\pytest-1320\test_whole_launcher_flow_from_0\TradingJournalData\trading_journal.sqlite3.migre-vers-postgresql
+2026-11-16 10:22:32,275 WARNING tjlauncher: PostgreSQL indisponible, repli sur SQLite : Téléchargement impossible : pas d'Internet
+2026-11-16 10:22:32,291 WARNING tjlauncher: PostgreSQL indisponible, repli sur SQLite : UAC refusée
+2026-11-16 10:22:32,302 WARNING tjlauncher: PostgreSQL indisponible, repli sur SQLite : création de la base impossible
+2026-11-16 10:22:32,374 INFO tjlauncher: Migration vers PostgreSQL terminée : 4 ligne(s) ; ancienne base : C:\Users\makht\AppData\Local\Temp\pytest-of-makht\pytest-1320\test_online_proposes_the_switc0\TradingJournalData\trading_journal.sqlite3.migre-vers-postgresql
+2026-11-16 10:22:32,409 INFO tjlauncher: Migration vers PostgreSQL terminée : 4 ligne(s) ; ancienne base : C:\Users\makht\AppData\Local\Temp\pytest-of-makht\pytest-1320\test_installed_postgres_is_off0\TradingJournalData\trading_journal.sqlite3.migre-vers-postgresql
+2026-11-16 10:22:32,419 ERROR tjlauncher: Tentative de passage à PostgreSQL interrompue
+Traceback (most recent call last):
+  File "C:\doc pc\projet perso\trading\desktop\tjlauncher\app.py", line 102, in _prepare_sqlite
+    self._offer_upgrade(deps)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\doc pc\projet perso\trading\desktop\tjlauncher\app.py", line 125, in _offer_upgrade
+    pg.ensure_database(trial, self.ui, deps)
+    ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\doc pc\projet perso\trading\desktop\tests\test_sqlite_fallback.py", line 238, in crash
+    raise RuntimeError("bug inattendu")
+RuntimeError: bug inattendu
+2026-11-16 10:22:32,475 INFO tjlauncher: Migration vers PostgreSQL terminée : 4 ligne(s) ; ancienne base : C:\Users\makht\AppData\Local\Temp\pytest-of-makht\pytest-1320\test_already_migrated_postgres0\TradingJournalData\trading_journal.sqlite3.migre-vers-postgresql
+2026-11-17 22:30:09,421 INFO tjlauncher.gui: Téléchargement de PostgreSQL…
+2026-11-17 22:30:10,818 INFO tjlauncher.gui: x
+2026-11-17 22:30:15,026 INFO tjlauncher: Premier lancement : démarrage sur SQLite
+2026-11-17 22:30:29,777 INFO tjlauncher.gui: Téléchargement de PostgreSQL…
+2026-11-17 22:30:31,263 INFO tjlauncher.gui: x
+2026-11-17 22:30:35,032 INFO tjlauncher: Premier lancement : démarrage sur SQLite
+2026-11-17 22:30:35,053 INFO tjlauncher: Premier lancement : démarrage sur SQLite
+2026-11-17 22:30:35,066 INFO tjlauncher: Premier lancement : démarrage sur SQLite
+2026-11-17 22:30:35,084 WARNING tjlauncher: PostgreSQL indisponible, repli sur SQLite : Téléchargement impossible : pas d'Internet
+2026-11-17 22:30:35,099 WARNING tjlauncher: PostgreSQL indisponible, repli sur SQLite : UAC refusée
+2026-11-17 22:30:35,118 WARNING tjlauncher: PostgreSQL indisponible, repli sur SQLite : création de la base impossible
+2026-11-17 22:30:35,169 INFO tjlauncher: Migration vers PostgreSQL terminée : 4 ligne(s) ; ancienne base : C:\Users\makht\AppData\Local\Temp\pytest-of-makht\pytest-1322\test_online_proposes_the_switc0\TradingJournalData\trading_journal.sqlite3.migre-vers-postgresql
+2026-11-17 22:30:35,202 INFO tjlauncher: Migration vers PostgreSQL terminée : 4 ligne(s) ; ancienne base : C:\Users\makht\AppData\Local\Temp\pytest-of-makht\pytest-1322\test_installed_postgres_is_off0\TradingJournalData\trading_journal.sqlite3.migre-vers-postgresql
+2026-11-17 22:30:35,212 ERROR tjlauncher: Tentative de passage à PostgreSQL interrompue
+Traceback (most recent call last):
+  File "C:\doc pc\projet perso\trading\desktop\tjlauncher\app.py", line 114, in _prepare_sqlite
+    self._offer_upgrade(deps)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\doc pc\projet perso\trading\desktop\tjlauncher\app.py", line 138, in _offer_upgrade
+    pg.ensure_database(trial, self.ui, deps)
+    ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\doc pc\projet perso\trading\desktop\tests\test_sqlite_fallback.py", line 276, in crash
+    raise RuntimeError("bug inattendu")
+RuntimeError: bug inattendu
+2026-11-17 22:30:35,259 INFO tjlauncher: Migration vers PostgreSQL terminée : 4 ligne(s) ; ancienne base : C:\Users\makht\AppData\Local\Temp\pytest-of-makht\pytest-1322\test_already_migrated_postgres0\TradingJournalData\trading_journal.sqlite3.migre-vers-postgresql
